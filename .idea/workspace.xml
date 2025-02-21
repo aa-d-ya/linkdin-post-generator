@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93c0e2e5-7bab-45ce-9efe-295d8d455cfe" name="Changes" comment="Preprocessing">
+    <list default="true" id="93c0e2e5-7bab-45ce-9efe-295d8d455cfe" name="Changes" comment="Minor changes">
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/linkdin-post-generator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/linkdin-post-generator.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw_posts.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/raw_posts.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/few_shot.py" beforeDir="false" afterPath="$PROJECT_DIR$/few_shot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/llm_helper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +46,7 @@
     "Python.few_shot.executor": "Run",
     "Python.llm_helper.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.post_generator.executor": "Run",
     "Python.preprocess.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -123,7 +120,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="post_generator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="linkdin-post-generator" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,7 +133,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/post_generator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,10 +164,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.few_shot" />
+        <item itemvalue="Python.post_generator" />
         <item itemvalue="Python.preprocess" />
         <item itemvalue="Python.llm_helper" />
         <item itemvalue="Python.aaa" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +195,79 @@
       <option name="project" value="LOCAL" />
       <updated>1740103366891</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="llm helper&#10;shot learning">
+      <option name="closed" value="true" />
+      <created>1740103471881</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740103471881</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Miscellaneous">
+      <option name="closed" value="true" />
+      <created>1740103640988</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740103640988</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Streamlit UI">
+      <option name="closed" value="true" />
+      <created>1740109729440</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1740109729440</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Post Generator">
+      <option name="closed" value="true" />
+      <created>1740114498921</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1740114498921</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Updated dataset">
+      <option name="closed" value="true" />
+      <created>1740115643984</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740115643984</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Updated dataset">
+      <option name="closed" value="true" />
+      <created>1740116463131</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1740116463131</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Updated dataset">
+      <option name="closed" value="true" />
+      <created>1740116515937</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1740116515937</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Integration">
+      <option name="closed" value="true" />
+      <created>1740116593482</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1740116593482</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Minor changes">
+      <option name="closed" value="true" />
+      <created>1740116836852</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1740116836852</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,6 +283,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Preprocessing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Preprocessing" />
+    <MESSAGE value="llm helper&#10;shot learning" />
+    <MESSAGE value="Miscellaneous" />
+    <MESSAGE value="Streamlit UI" />
+    <MESSAGE value="Post Generator" />
+    <MESSAGE value="Updated dataset" />
+    <MESSAGE value="Integration" />
+    <MESSAGE value="Minor changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor changes" />
   </component>
 </project>
