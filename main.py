@@ -1,5 +1,8 @@
 import streamlit as st
 from few_shot import FewShotPosts
+from post_generator import generate_post
+
+
 def main():
     st.title("LinkedIn Post Generator")
     col1,col2,col3=st.columns(3)
@@ -14,6 +17,9 @@ def main():
         selected_language =st.selectbox("Title", options=["English","Hinglish"])
 
     if st.button("Generate"):
-        st.write(f"Generated post for{selected_tag},{selected_length},{selected_language}")
+        post = generate_post(selected_length,selected_language,selected_tag)
+        st.write(post)
+
+
 if __name__ == "__main__":
     main()
