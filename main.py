@@ -1,6 +1,10 @@
+import os
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 import streamlit as st
 from few_shot import FewShotPosts
 from post_generator import generate_post
+
+
 
 
 def main():

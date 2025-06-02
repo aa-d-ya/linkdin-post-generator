@@ -3,9 +3,10 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-llm = ChatGroq(groq_api_key=os.getenv("GROQ_API_KEY"), model_name="llama-3.2-3b-preview")
 
+
+llm = ChatGroq(groq_api_key=os.getenv("GROQ_API_KEY"), model_name="llama3-8b-8192")
 
 if __name__ == "__main__":
-    response = llm.invoke("Two most important ingredient in cake are ")
+    response = llm.invoke("What's bigger? brain or bull? ")
     print(response.content)
